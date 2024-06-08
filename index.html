@@ -5,16 +5,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Ecommerce Search</title>
   <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-  <style>
-    #results {
-      margin-top: 20px;
-    }
-    .card {
-      margin-bottom: 20px;
-    }
-  </style>
+  <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
+    <nav class="navbar navbar-light bg-light">
+        <a href="/" class="navbar-brand">E-COMMERCE</a>
+    </nav>
   <div class="container">
     <h1 class="my-4">Clothes Store</h1>
     <div class="form-group">
@@ -25,48 +21,6 @@
 
   <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
-  <script>
-    const clothes = [
-      { name: 'Red Dress', image: 'Images/jacket.jpg', description: 'Beautiful red dress.' },
-      { name: 'Blue Jeans', image: 'https://via.placeholder.com/150', description: 'Comfortable blue jeans.' },
-      { name: 'Green Shirt', image: 'https://via.placeholder.com/150', description: 'Stylish green shirt.' },
-      { name: 'Yellow Skirt', image: 'https://via.placeholder.com/150', description: 'Bright yellow skirt.' },
-      { name: 'Black Jacket', image: 'https://via.placeholder.com/150', description: 'Cool black jacket.' },
-      // Add more items as needed
-    ];
-
-    const resultsContainer = document.getElementById('results');
-
-    function displayClothes(clothesToDisplay) {
-      resultsContainer.innerHTML = '';
-      clothesToDisplay.forEach(item => {
-        const card = document.createElement('div');
-        card.className = 'col-md-4';
-        card.innerHTML = `
-          <div class="card">
-            <img src="${item.image}" class="card-img-top" alt="${item.name}">
-            <div class="card-body">
-              <h5 class="card-title">${item.name}</h5>
-              <p class="card-text">${item.description}</p>
-            </div>
-          </div>
-        `;
-        resultsContainer.appendChild(card);
-      });
-    }
-
-    document.getElementById('searchBar').addEventListener('input', function() {
-      const query = this.value.toLowerCase();
-      if (query.length > 3) {
-        const filteredClothes = clothes.filter(item => item.name.toLowerCase().includes(query));
-        displayClothes(filteredClothes);
-      } else {
-        displayClothes(clothes);
-      }
-    });
-
-    // Initial display of all clothes
-    displayClothes(clothes);
-  </script>
+  <script src="js/script.js"></script>
 </body>
 </html>
