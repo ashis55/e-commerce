@@ -1,0 +1,56 @@
+[
+    {
+      "name": "Black Coat",
+      "image": "images/black-coat.jpg",
+      "description": "Beautiful Black coat."
+    },
+    {
+        "name": "Red Sweater",
+        "image": "images/red-sweater.jpg",
+        "description": "Bright Red Sweater."
+      },
+    {
+        "name": "Blue Jean",
+        "image": "images/blue-jean.jpg",
+        "description": "Beautiful Blue Jean."
+      },
+      {
+        "name": "Red Jacket",
+        "image": "images/Red-jacket.jpg",
+        "description": "Bright red jacket."
+      },
+    {
+      "name": "Black Jeans",
+      "image": "images/black-jean.jpg",
+      "description": "Comfortable black jeans."
+    },
+    {
+      "name": "Green Shirt",
+      "image": "images/green-shirt.jpg",
+      "description": "Stylish green shirt."
+    },
+    {
+      "name": "Yellow Shirt",
+      "image": "images/yellow-shirt.jpg",
+      "description": "Bright yellow shirt."
+    },
+
+    {
+        "name": "Black Shirt",
+        "image": "images/black-shirt.jpg",
+        "description": "Stylish black shirt."
+      },
+
+      {
+        "name": "Red shirt",
+        "image": "images/red-shirt.jpg",
+        "description": "Bright Red shirt."
+      },
+      
+    {
+      "name": "Black Jacket",
+      "image": "images/black-jacket.jpg",
+      "description": "Cool black jacket."
+    }
+  ]
+  
